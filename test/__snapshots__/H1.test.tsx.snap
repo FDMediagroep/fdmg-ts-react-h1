@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`H1 renders correctly 1`] = `
+<h1>
+  test h1
+</h1>
+`;
+
+exports[`H1 renders correctly with CSS class 1`] = `
+<h1
+  className="title"
+>
+  test h1
+</h1>
+`;

@@ -1,2 +1,32 @@
 # fdmg-ts-react-h1
-ReactJS H1 component
+[ReactJS](https://reactjs.org/) H1 component. This component renders an H1 header.
+You might think it silly to have this as a separate component. But when you use an H1-element multiple times in your
+project then having that as a component might eventually save you some bytes.
+
+## Installation
+- Run `npm i --save-dev fdmg-ts-react-h1`
+
+or
+
+- Run `yarn add fdmg-ts-react-h1 --dev`
+
+## Usage
+### TypeScript
+```
+import * as React from 'react';
+import H1 from 'fdmg-ts-react-h1';
+
+export default class foo {
+    public state: any;
+    public props: any;
+
+    constructor(props: any) {
+        super(props);
+        this.props = props;
+    }
+
+    render() {
+        return (<H1 text={this.props.showTitle} className={'title'} />);
+    }
+}
+```
