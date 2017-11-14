@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/FDMediagroep/fdmg-ts-react-h1.svg?branch=master)](https://travis-ci.org/FDMediagroep/fdmg-ts-react-h1)
+[![Coverage Status](https://coveralls.io/repos/github/FDMediagroep/fdmg-ts-react-h1/badge.svg?branch=master)](https://coveralls.io/github/FDMediagroep/fdmg-ts-react-h1?branch=master)
+
 # fdmg-ts-react-h1
 [ReactJS](https://reactjs.org/) H1 component. This component renders an H1 header.
 You might think it silly to have this as a separate component. But when you use an H1-element multiple times in your
