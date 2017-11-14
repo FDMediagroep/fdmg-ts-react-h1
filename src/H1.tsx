@@ -27,7 +27,7 @@ export default class H1 extends React.Component {
 
     render() {
         return (
-            <h1 {this.props.className?{className: this.props.className}:''}>{this.props.text}</h1>
+            <h1 className={this.props.className}>{this.props.text}</h1>
         );
     }
 }

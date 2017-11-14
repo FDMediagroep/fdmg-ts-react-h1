@@ -1,6 +1,6 @@
 {
   "name": "fdmg-ts-react-h1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ReactJS H1 component",
   "main": "dist/H1.js",
   "scripts": {
