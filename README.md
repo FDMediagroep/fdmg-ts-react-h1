@@ -36,5 +36,5 @@ export default class foo {
 
 ### Resulting HTML
 ```
-<h1 className="css-class-name">title</h1>
+<h1 class="css-class-name">title</h1>
 ```
