@@ -33,3 +33,8 @@ export default class foo {
     }
 }
 ```
+
+### Resulting HTML
+```
+<h1 className="css-class-name">title</h1>
+```
