@@ -32,7 +32,7 @@ var H1 = /** @class */ (function (_super) {
         console.info('H1 next props', nextProps);
     };
     H1.prototype.render = function () {
-        return (React.createElement("h1", { className: this.props.className ? this.props.className : null }, this.props.text));
+        return (React.createElement("h1", { className: this.props.className }, this.props.text));
     };
     return H1;
 }(React.Component));
