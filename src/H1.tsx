@@ -2,7 +2,7 @@ import * as React from 'react';
 
 export interface Props {
     className?: string;
-    text: string;
+    children?: JSX.Element|string|number;
 }
 
 /**
@@ -18,21 +18,9 @@ export default class H1 extends React.Component<Props, any> {
         console.info('H1 component', props);
     }
 
-    componentDidMount() {
-        console.info('H1 mounted');
-    }
-        
-    componentWillUnmount() {
-        console.info('H1 will unmount');
-    }
-
-    componentWillReceiveProps(nextProps) {
-        console.info('H1 next props', nextProps);
-    }
-
     render() {
         return (
-            <h1 className={this.props.className}>{this.props.text}</h1>
+            <h1 className={this.props.className}>{this.props.children}</h1>
         );
     }
 }
