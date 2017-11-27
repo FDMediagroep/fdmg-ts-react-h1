@@ -22,17 +22,8 @@ var H1 = /** @class */ (function (_super) {
         console.info('H1 component', props);
         return _this;
     }
-    H1.prototype.componentDidMount = function () {
-        console.info('H1 mounted');
-    };
-    H1.prototype.componentWillUnmount = function () {
-        console.info('H1 will unmount');
-    };
-    H1.prototype.componentWillReceiveProps = function (nextProps) {
-        console.info('H1 next props', nextProps);
-    };
     H1.prototype.render = function () {
-        return (React.createElement("h1", { className: this.props.className }, this.props.text));
+        return (React.createElement("h1", { className: this.props.className }, this.props.children));
     };
     return H1;
 }(React.Component));
