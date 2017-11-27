@@ -2,7 +2,7 @@ import * as React from 'react';
 
 export interface Props {
     className?: string;
-    children?: JSX.Element|string|number;
+    children?: JSX.Element[]|HTMLElement[]|string|number;
 }
 
 /**
