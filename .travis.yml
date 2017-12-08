@@ -1,21 +1,23 @@
 language: node_js
-
 node_js:
-  - "node"
-
+- node
 addons:
   apt:
     packages:
-      - nodejs-legacy
-
+    - nodejs-legacy
 install:
-  - npm install -g gulp
-  - npm install -g typescript
-  - npm install
-
+- npm install -g gulp
+- npm install -g typescript
+- npm install
 script:
-  - npm run test
-  - npm run lint
-
+- npm run test
+- npm run lint
 after_success:
-  - "cat ./dist/coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+- cat ./dist/coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+deploy:
+  provider: npm
+  email: willem_liu@hotmail.com
+  on:
+    branch: master
+  api_key:
+    secure: qGrpg9IBTdbF/STsi6jLdUTidKDK1qn0sTu7/TvDGlAWcwR2CyyIhoYxtM8u8hNyBRmUr9K3g7BBqPyujFQ60Z0LoW4unAb6edGZS4WLfwY1wR2v0Ca7QocHPhqYjOm2oaEkHYtZ37vVXqqdiGx4CBx9ru6iS1DI+TkJTq0ee/bjBcrUfSpKSTyz4EobvjhJfuvwvdP84K22w5HSNrvXiuoWgD2hhu6s04Wu7vvrFf8KPmYS0HvYE3hvPswSwR/XUpCIYuKIEKQRQn8G9bfrmfzmT/jPX2TQi/0zv/eWIVLj5cveBEhyBKxCKaXyV4fUzU0838DEo0pxXtLXDZPbnjf+vhfu9VKsb/EiYvu8DO7hWoWUyhHW+pa1WXoKta+lRbz8+ORFYub+3G94NdJAyizYEUnrWOTb6fpWnj1NXA45E1vgO2gCnixVz1jp1zdKd/OUVsUE48+GM4rseEXJo5YlLXfN13mbHwQKmt8JT/vUSE3dxaZc4Py5VG1GSjRmbguFY4Ov2LhFicIbbsPoLIpy2fs/GqlQ5/HWpgrAKql+uvtsAghWSxeIMg/STtEyXS69mUSBQ+NtQPhGd8hkACHSxAKOlbR1V9nHJSK9so835Vt4JOMuypOTmCFwBBudt0p7aUkplVM5YegyU2TOhktuF3sHCrWA81RfWzUBAzs=
