@@ -19,7 +19,6 @@ var H1 = /** @class */ (function (_super) {
     function H1(props) {
         var _this = _super.call(this, props) || this;
         _this.props = props;
-        console.info('H1 component', props);
         return _this;
     }
     H1.prototype.render = function () {

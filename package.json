@@ -1,11 +1,11 @@
 {
   "name": "fdmg-ts-react-h1",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "ReactJS H1 component",
   "main": "dist/H1.js",
   "types": "dist/H1.d.ts",
   "scripts": {
-    "release": "npm install && yarn && tsc -d",
+    "release": "npm update && npm install && yarn && tsc -d",
     "test": "jest",
     "lint": "tslint -p .",
     "updateSnapshot": "jest --updateSnapshot",
@@ -19,7 +19,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^21.1.8",
-    "@types/react": "^16.0.27",
+    "@types/react": "^16.0.28",
     "coveralls": "^3.0.0",
     "enzyme": "^3.2.0",
     "enzyme-adapter-react-16": "^1.1.0",
