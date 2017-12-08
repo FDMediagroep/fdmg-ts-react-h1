@@ -7,6 +7,7 @@
   "scripts": {
     "release": "npm install && yarn && tsc -d",
     "test": "jest",
+    "lint": "tslint -p .",
     "updateSnapshot": "jest --updateSnapshot",
     "u": "npm test -- -u"
   },
@@ -29,6 +30,8 @@
     "react-dom": "^16.2.0",
     "react-test-renderer": "^16.2.0",
     "ts-jest": "^21.2.4",
+    "tslint": "^5.8.0",
+    "tslint-react": "^3.2.0",
     "typescript": "^2.6.2"
   },
   "jest": {
