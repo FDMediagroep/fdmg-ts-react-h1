@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/FDMediagroep/fdmg-ts-react-h1.svg?branch=master)](https://travis-ci.org/FDMediagroep/fdmg-ts-react-h1)
 [![Coverage Status](https://coveralls.io/repos/github/FDMediagroep/fdmg-ts-react-h1/badge.svg?branch=master)](https://coveralls.io/github/FDMediagroep/fdmg-ts-react-h1?branch=master)
 
-[![npm version](https://badge.fury.io/js/fdmg-ts-react-h1.svg)](https://badge.fury.io/js/fdmg-ts-react-h1)
+[![npm version](https://badge.fury.io/js/%40fdmg%2Fts-react-h1.svg)](https://badge.fury.io/js/%40fdmg%2Fts-react-h1)
 
 # fdmg-ts-react-h1
 [ReactJS](https://reactjs.org/) H1 component. This component renders an H1 header.
@@ -9,17 +9,17 @@ You might think it silly to have this as a separate component. But when you use 
 project then having that as a component might eventually save you some bytes.
 
 ## Installation
-- Run `npm i --save-dev fdmg-ts-react-h1`
+- Run `npm i --save-dev @fdmg/ts-react-h1`
 
 or
 
-- Run `yarn add fdmg-ts-react-h1 --dev`
+- Run `yarn add @fdmg/ts-react-h1 --dev`
 
 ## Usage
 ### TypeScript
 ```
 import * as React from 'react';
-import H1 from 'fdmg-ts-react-h1';
+import H1 from '@fdmg/ts-react-h1';
 
 export default class foo {
     public state: any;
