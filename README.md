@@ -4,6 +4,8 @@
 [![npm version](https://badge.fury.io/js/%40fdmg%2Fts-react-h1.svg)](https://badge.fury.io/js/%40fdmg%2Fts-react-h1)
 
 # fdmg-ts-react-h1
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/FDMediagroep/fdmg-ts-react-h1.svg)](https://greenkeeper.io/)
 [ReactJS](https://reactjs.org/) H1 component. This component renders an H1 header.
 You might think it silly to have this as a separate component. But when you use an H1-element multiple times in your
 project then having that as a component might eventually save you some bytes.
