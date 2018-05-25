@@ -1,23 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`H1 renders correctly 1`] = `
-<h1
-  className={undefined}
->
+<h1>
   test h1
 </h1>
 `;
 
-exports[`H1 renders correctly 2`] = `
-<h1
-  className={undefined}
-/>
-`;
+exports[`H1 renders correctly 2`] = `<h1 />`;
 
 exports[`H1 renders correctly 3`] = `
-<h1
-  className={undefined}
->
+<h1>
   <span>
     testing 123
   </span>
