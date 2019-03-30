@@ -34,7 +34,7 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-test-renderer": "^16.8.4",
-    "ts-jest": "24.0.0",
+    "ts-jest": "24.0.1",
     "tslint": "^5.12.1",
     "tslint-react": "^3.6.0",
     "typescript": "^3.3.3"
