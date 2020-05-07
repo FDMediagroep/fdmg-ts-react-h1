@@ -1,3 +1,5 @@
+> :exclamation: **DEPRECATED** :exclamation: : Superseded by @fdmg/design-system. See: https://github.com/FDMediagroep/fd-design-system
+
 # fdmg-ts-react-h1
 
 [![Build Status](https://travis-ci.org/FDMediagroep/fdmg-ts-react-h1.svg?branch=master)](https://travis-ci.org/FDMediagroep/fdmg-ts-react-h1)
